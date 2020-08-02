@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include condominios *.css
+recursive-include condominios *.csv
+recursive-include condominios *.html
+recursive-include condominios *.ico
+recursive-include condominios *.js
+recursive-include condominios *.json
+recursive-include condominios *.md
+recursive-include condominios *.png
+recursive-include condominios *.py
+recursive-include condominios *.svg
+recursive-include condominios *.txt
+recursive-exclude condominios *.pyc
